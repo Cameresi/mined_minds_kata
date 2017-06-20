@@ -1,20 +1,20 @@
 
 #Example 1
-100.times {
-	|x| puts x + 1
-		if x == 3
-			print "Mined\n"
-		end
-	}
+#100.times {
+#	|x| puts x + 1
+#		if x == 3
+#			print "Mined\n"
+#		end
+#	}
 
 
 #Example 2
-#1.upto(100) do |x|
-#	if x % 3 == 0
-#		puts "Mined\n"
-#	else puts x
-#	end
-#end
+1.upto(100) do |x|
+	if x % 3 == 0
+		puts "Mined\n"
+	else puts x
+	end
+end
 
 #Example 3
 #1.upto(100) do |x|
