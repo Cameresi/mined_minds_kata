@@ -17,25 +17,25 @@
 #end
 
 #Example 3
-1.upto(100) do |x|
-	if x % 3 == 0 
-		puts "Mined\n"
-	elsif x == 5
-		puts "Minds\n"
-	else 
-		puts x
-	end
-end
-
-# Example 4
 #1.upto(100) do |x|
-#	if x % 3 == 0 and x % 5 == 0
-#		print "Mined Minds\n"
-#	elsif x % 3 == 0
+#	if x % 3 == 0 
 #		puts "Mined\n"
-#	elsif x % 5 == 0
+#	elsif x == 5
 #		puts "Minds\n"
-#	else
+#	else 
 #		puts x
 #	end
 #end
+
+# Example 4
+1.upto(100) do |x|
+	if x % 3 == 0 and x % 5 == 0
+		print "Mined Minds\n"
+	elsif x % 3 == 0
+		puts "Mined\n"
+	elsif x % 5 == 0
+		puts "Minds\n"
+	else
+		puts x
+	end
+end
